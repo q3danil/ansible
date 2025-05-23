@@ -1,0 +1,6 @@
+[server]
+hq-srv	ansible_ssh_user=sshuser	ansible_ssh_port=21125
+
+[routers]
+hq-rtr	ansible_ssh_user=net_admin	ansible_ssh_port=21025
+br-rtr	ansible_ssh_user=net_admin	ansible_ssh_port=21025
